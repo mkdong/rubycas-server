@@ -42,7 +42,7 @@ $gemspec = Gem::Specification.new do |s|
   s.add_development_dependency("guard", "~> 1.4.0")
   s.add_development_dependency("guard-rspec", "2.0.0")
   s.add_development_dependency("webmock", "~> 1.8")
-  s.add_development_dependency("nokogiri", "~> 1.3")
+  s.add_development_dependency("nokogiri", "~> 1.6.8")
 
   # pull in os specific FS monitoring lib for guard
   case RUBY_PLATFORM
