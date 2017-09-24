@@ -497,7 +497,7 @@ module CASServer
       render @template_engine, :login
     end
 
-    get /^#{uri_path}\/?$/ do
+    get /#{uri_path}\/?/ do
       redirect "#{config['uri_path']}/login", 303
     end
 
